@@ -1,0 +1,347 @@
+.navbar-brand img
+{
+    width: 17rem;
+    height: 5rem;
+}
+#myNavbar
+{
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+}
+.navbar-brand
+{
+    padding: 0 0 0 25px;
+}
+.header .navbar .navbar-nav > li > a, .header .navbar .navbar-brand, .header .navbar .navbar-nav > li > a:focus
+{
+    color: var(--main-color);
+}
+.page-section__title
+{
+    margin-top: -100px;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.service .material-icons
+{
+    color: var(--main-color);
+}
+.material-icons img
+{
+  height: 5.5rem;
+  width: 5.5rem;
+  margin-top: -10px;
+}
+.overview__wrapper ul
+{
+    margin-top: 130px !important;
+    padding: 0;
+}
+.about__content-subTitle
+{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.page-section
+{
+    padding: 70px 0;
+}
+.page-section__paragraph
+{
+    padding-bottom: 30px;
+}
+.about__content-paragraph
+{
+    margin: auto;
+    text-align: justify;
+}
+.map img
+{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+@media (max-width: 575.98px) { 
+    .map img
+    {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .holderNews form input, .holderNews form textarea
+    {
+        width: 300px !important;
+    }
+ }
+
+@media (min-width: 200px) and (max-width: 767.98px) { 
+    .map img
+    {
+        display: block;
+        margin: auto;
+        width: 75%;
+    }
+    form.row1
+    {
+        display: flex;
+        flex-direction: column !important;
+    }
+    form.row1 input
+    {
+        margin-top: 10px;
+
+    }
+    form.row1 button
+    {
+        width: 70px;
+        margin-top: 15px;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .map img
+    {
+        display: block;
+        margin: auto;
+        width: 75%;
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .map img
+    {
+        display: block;
+        margin: auto;
+        width: 75%;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .map img
+    {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+ }
+
+ .hidePath
+ {
+     display: none !important;
+ }
+ .submit
+ {
+     transition: all 0.2s ease-in-out;
+     border-color: var(--main-color);
+     border-width: 2px;
+     color: var(--main-color);
+ }
+ .submit:hover
+ {
+    color: white !important;
+    background-color: var(--main-color) !important;
+ }
+ #detail
+ {
+    max-width: 100%;
+    margin: auto;
+ }
+ #headerDetail,#footerDetail
+ {
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+ }
+ #headerDetail
+ {
+     border-radius: 20px 20px 0 0;
+ }
+ #footerDetail
+ {
+    border-radius: 0 0 20px 20px;
+ }
+ .contentDetail
+ {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 80%;
+     margin: auto;
+ }
+ .hideCostDetail
+ {
+     display: block !important;
+ }
+ #costDetail
+ {
+     display: none;
+ }
+ .addWorkerBtn
+ {
+     transition: all 0.2s ease-in-out;
+ }
+ .addWorkerBtn:hover
+ {
+    background-color: var(--main-color);
+    color: white !important;
+ }
+ .row1 input
+ {
+     margin-left: 7.5px;
+     margin-right: 7.5px;
+     width: 300px;
+ }
+ .showTable th
+ {
+     text-align: center;
+ }
+ .delWorker, .delWorker a
+ {
+     transition: all 0.2s ease-in-out;
+ }
+ .delWorker:hover
+ {
+     color: white !important;
+     background-color: var(--main-color);
+ }
+ .delWorker:hover a
+ {
+     color: white !important;
+ }
+ .holderNews form input, .holderNews form textarea
+ {
+     width: 400px;
+ }
+ .flexCenter
+ {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+#cardHolder
+{
+    width: 50%;
+    border: 15px solid rgb(230, 230, 230);
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ #leftCard,#rightCard
+ {
+    background-color: rgb(230, 230, 230);
+ }
+ #leftCard
+ {
+     float: left;
+     height: 200px;
+     width: 15px;
+     border-radius: 20px 0 0 20px;
+ }
+ #rightCard
+ {
+     float: right;
+     height: 200px;
+     width: 15px;
+     border-radius: 0 20px 20px 0;
+ }
+ #cardShape
+ {
+     position: relative;
+     height: 300px;
+     width: 500px;
+     border-radius: 30px;
+    background: url("../../img/bigMetro.gif") no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.50);
+ }
+ #cardColor
+ {
+     background-color: #6bbf43;
+     width: 100%;
+     height: 100%;
+     opacity: 0.85;
+     border-radius: 30px;
+ }
+
+ 
+ #cardShape img
+ {
+     height: 150px;
+     width: 300px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+    }
+    #cardContent
+    {
+        color: gray;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 30px;
+        transition: all 0.3s ease-in-out;
+    }
+    #cardContent ul {
+       list-style: none;
+     }
+     
+     #cardContent ul li:before {
+       content: '✓';
+       margin-right: 10px;
+     }
+     #pShow
+     {
+         transition: all 0.2s ease-in-out;
+     }
+     #pShow:hover
+     {
+        color: var(--main-color) !important;
+     }
+     #ticketsChart p:nth-child(1), #customerChart p:nth-child(1)
+     {
+        color: var(--main-color);
+        font-size: 3rem;
+        font-weight: 600;
+     }
+     #ticketsChart p:nth-child(2), #customerChart p:nth-child(2)
+     {
+        color: gray;
+        font-size: 1.5rem;
+     }   
+     #ticketsChart p:nth-child(3), #customerChart p:nth-child(3)
+     {
+        color: var(--main-color);
+        font-size: 1.3rem;
+        margin-bottom: 50px;
+        font-weight: 600;
+     }
+     .formLetter form
+     {
+        width: 35%;
+        margin:auto
+     }
+
+     @media screen and (max-width: 500px)
+     {
+        .formLetter form
+        {
+            width: 100%;
+            margin:auto;
+            margin-top: 20px;
+        }
+     }
+
+     @media screen and (min-width:501px) and (max-width: 800px)
+     {
+        .formLetter form
+        {
+            width: 60%;
+            margin:auto;
+            margin-top: 20px;
+        }
+     }
